@@ -1,10 +1,14 @@
 package com.collectionsPratice;
 
+import javax.xml.transform.stream.StreamSource;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Arrays;
 
 public class CollectionsTest {
+
     public static void main(String[] args) {
 
         /*This part of code shows the working of iterator and BTS of "for" loop.*/
@@ -53,5 +57,9 @@ public class CollectionsTest {
 //        System.out.println(subListOfNames2);
 //        System.out.println(listOfNames2);
 
+        List<Integer> lk = new LinkedList<>();
+
+
     }
+
 }
